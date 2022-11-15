@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AllSura.NasSuraActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginBottom="35dp"
+            android:background="#2E94FA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="6dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="বিসমিল্লাহির রাহমানির রাহিমِ"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:text="পরম করুণাময় অসীম  দয়ালু আল্লাহর নামে।ِ"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="right"
+                        android:text="قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="ক্বুল আউযু বিরাব্বিন নাস।"
+                        android:textColor="#FF5722"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="বলুন, আমি আশ্রয় গ্রহণ করছি মানুষের পালনকর্তার।"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="right"
+                        android:text="مَلِكِ ٱلنَّاسَِْ"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="মালিকিন্নাস।"
+                        android:textColor="#FF5722"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="মানুষের অধিপতির,"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="right"
+                        android:text="إِلَـٰهِ ٱلنَّاسُِ"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="ইলাহিন্নাস।"
+                        android:textColor="#FF5722"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="মানুষের মা' বুদের,"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="right"
+                        android:text="مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="মিন শাররীল ওয়াস ওয়াসিল খান্নাস।"
+                        android:textColor="#FF5722"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="তার অনিষ্ট থেকে, যে কুমন্ত্রণা দেয় ও আত্মগোপন করে,"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="right"
+                        android:text="الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ "
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="আল্লাযি ইউওয়াস ইসু ফী সুদুরিন্নাস।"
+                        android:textColor="#FF5722"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="যে কুমন্ত্রণা দেয় মানুষের অন্তরে,"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="right"
+                        android:text="مِنَ الْجِنَّةِ وَ النَّاسِ"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="মিনাল জিন্নাতি ওয়ান নাস।"
+                        android:textColor="#FF5722"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="জ্বিনের মধ্য থেকে অথবা মানুষের মধ্য থেকে।"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:layout_marginBottom="30dp"
+                        />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5861635784906387/1336766588">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

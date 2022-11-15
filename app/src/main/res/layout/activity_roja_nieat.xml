@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".rojatarabi.RojaNieat">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="6dp"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginVertical="4dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="রোজার নিয়ত"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textColor="@color/teal_700"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="نَوَيْتُ اَنْ اُصُوْمَ غَدًا مِّنْ شَهْرِ رَمْضَانَ الْمُبَارَكِ فَرْضَا لَكَ يَا اللهُ فَتَقَبَّل مِنِّى اِنَّكَ اَنْتَ السَّمِيْعُ الْعَلِيْم"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_700"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:gravity="left"
+                    android:layout_marginTop="5dp"
+                    android:text="আরবি নিয়ত : নাওয়াইতু আন আছুম্মা গাদাম মিন শাহরি রমাজানাল মুবারাকি ফারদাল্লাকা, ইয়া আল্লাহু ফাতাকাব্বাল মিন্নি ইন্নিকা আনতাস সামিউল আলিম।"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"
+                    android:textSize="18dp"
+                    android:gravity="left"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="বাংলায় নিয়ত : হে আল্লাহ! আমি আগামীকাল পবিত্র রমজানের তোমার পক্ষ থেকে নির্ধারিত ফরজ রোজা রাখার ইচ্ছা পোষণ (নিয়্যত) করলাম। অতএব তুমি আমার পক্ষ থেকে (আমার রোযা তথা পানাহার থেকে বিরত থাকাকে) কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী"
+                    />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5861635784906387/1336766588">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

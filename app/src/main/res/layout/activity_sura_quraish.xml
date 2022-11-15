@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AllSura.SuraQuraishActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="#2E94FA"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginVertical="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="বিসমিল্লাহির রাহমানির রাহিমِ"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="পরম করুণাময় অসীম  দয়ালু আল্লাহর নামে।ِ"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="لِإِيلَافِ قُرَيْشٍَِ"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text=" লেঈলা-ফে কুরায়েশ ।"
+                        android:textColor="#FF5722"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="কুরায়েশদের আসক্তির কারণে"
+                        android:textColor="@android:color/black"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="right"
+                        android:text="
+إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="ঈলা-ফিহিম রিহলাতাশ শিতা-ই ওয়াছ ছায়েফ।"
+                        android:textColor="#FF5722"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text="আসক্তির কারণে তাদের শীত ও গ্রীষ্মকালীন সফরের"
+                        android:textColor="@android:color/black"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="right"
+                        android:text="فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْتَِ"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text=" ফাল ইয়া‘বুদূ রববা হা-যাল বায়েত"
+                        android:textColor="#FF5722"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text=" অতএব তারা যেন ইবাদত করে এই গৃহের মালিকের"
+                        android:textColor="@android:color/black"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="right"
+                        android:text="الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍٍِ"
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text=" আল্লাযী আত্ব‘আমাহুম মিন জূ‘; ওয়া আ-মানাহুম মিন খাওফ"
+                        android:textColor="#FF5722"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="left"
+                        android:text=" যিনি তাদেরকে ক্ষুধায় অন্ন দান করেছেন এবং ভীতি হ’তে নিরাপদ করেছেন।"
+                        android:textColor="@android:color/black"
+                        android:textSize="17dp"
+                        android:layout_marginBottom="30dp"
+                        />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5861635784906387/1336766588">
+    </com.google.android.gms.ads.AdView>
+    </RelativeLayout>

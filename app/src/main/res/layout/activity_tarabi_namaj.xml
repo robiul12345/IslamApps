@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context=".rojatarabi.TarabiNamaj">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="35dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text=" তারাবির নামাজের নিয়ত"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="            نويت ان اصلى لله تعالى ركعتى صلوة التراويح سنة رسول الله تعالى متوجها الى جهة الكعبة الشريفة الله اكبر."
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="বাংলা উচ্চারণ: নাওয়াইতু আন উসালি­য়া ল্লিলাহি তাআ’লা, রাকাআ’তাই সালাতিল তারাবিহ সুন্নাতু রাসুল্লিলাহি তাআ’লা। মুতাওয়াযজ্জিহান ইলা যিহাতিল কা’বাতিশ শারিফাতি, আল্লাহু আকবার। তবে যদি তারাবি জামাআ’তের সহিত নামাজ হয় তবে- ইক্বতাদাইতু বি হাজাল ইমাম বলতে হবে।"
+                android:textColor="@color/purple_700"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="অর্থ: আমি কিবলামুখী হয়ে দুই রাকাআ’ত তারাবিহ সুন্নাত নামাজ আল্লাহর জন্য আদায়ের নিয়্যত করছি, আল্লাহু আকবার। (যদি জামাআ’তের সহিত নামাজ হয় তবে- এই ইমামের ইমামতিতে জামাআ’তের সহিত)।"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="7dp"
+                android:text="তারাবিহ নামাজের চার রাকাআ’ত পরপর দোয়া:"
+                android:textColor="@android:color/background_dark"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="سبحان ذى الملك والملكوت سبحان ذى العزة والعظمة والهيبة والقدرة والكبرياء والجبروت . سبحان الملك الحى الذى لاينام ولا يموت ابدا ابدا سبوح قدوس ربنا ورب الملئكة والروح.
+
+"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=" সুব্হানাযিল মুলকি ওয়াল মালাকুতি, সুব্হানাযিল ইয্যাতি, ওয়াল আয্মাতি, ওয়াল হাইবাতি, ওয়াল কুদরাতি, ওয়াল কিবরিয়াই, ওয়াল যাবারুত। সুব্হানাল মালিকিল হাইয়্যিল্লাজি লা-ইয়াানামু ওয়ালা ইয়ামুতু আবাদান আবাদা। সুব্বুহুন কুদ্দুছুন রাব্বুনা ওয়া রাব্বুল মালাইকাতি ওয়ার রূহ।"
+                android:textColor="@color/purple_700"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="7dp"
+
+                android:text="তারাবিহ নামাজের চার রাকাত পরপর মোনাজাত:"
+                android:textColor="@color/purple_500"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="اَللَهُمَّ اِنَّا نَسْئَالُكَ الْجَنَّةَ وَ نَعُوْذُبِكَ مِنَ النَّارِ يَا خَالِقَ الْجَنَّةَ وَالنَّارِ- بِرَحْمَتِكَ يَاعَزِيْزُ يَا غَفَّارُ يَا كَرِيْمُ يَا سَتَّارُ يَا رَحِيْمُ يَاجَبَّارُ يَاخَالِقُ يَابَارُّ – اَللَّهُمَّ اَجِرْنَا مِنَ النَّارِ يَا مُجِيْرُ يَا مُجِيْرُ يَا مُجِيْرُ- بِرَحْمَتِكَ يَا اَرْحَمَ الرَّحِمِيْنَ
+
+"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text=" আল্লাহুম্মা ইন্না নাসআলুকা জান্নাতা ওয়া নাউ’জুবিকা মিনান্নারী, ইয়া খালিকাল জান্নাতা ওয়ান্নারী, বিরহতিকা ইয়া আজিজু, ইয়া গাফ্ফারু, ইয়া কারীমু, ইয়া সাত্তারু, ইয়া রাহীমু, ইয়া জাব্বারু, ইয়া খালিকু, ইয়া বার্র। আল্লাহুম্মা আযিরনা মিনান্নার; ইয়া মুযিরু, ইয়া মুযিরু, ইয়া মুযির। বিরহমাতিকা ইয়া আর হামার রাহিমিন।"
+                android:textColor="@color/purple_700"
+                android:textSize="19dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5861635784906387/1336766588">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

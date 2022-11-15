@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.namazshikkha.islamapps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_na"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IslamApps">
+        <activity android:name=".AiatulKurceActivity"></activity>
+        <activity android:name=".DuaProtidinActivity" />
+        <activity android:name=".AllSura.SuraArRohomanActivity" />
+        <activity android:name=".AllSura.SuraYesainActivity" />
+        <activity android:name=".JumaNamajActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5861635784906387~3678777321" />
+
+        <activity android:name=".FiveNamajNieat.JanajaNamajActivity" />
+        <activity android:name=".Dowa70Activity" />
+        <activity android:name=".rojatarabi.TarabiNamaj" />
+        <activity android:name=".rojatarabi.SahariDwoa" />
+        <activity android:name=".rojatarabi.IpterDwoa" />
+        <activity android:name=".rojatarabi.RojaNieat" />
+        <activity android:name=".rojatarabi.RojaarFojilot" />
+        <activity android:name=".RojaAndTarabiNamaj" />
+        <activity android:name=".SuraHasor" />
+        <activity android:name=".FiveNamajNieat.IsharNamajActivity" />
+        <activity android:name=".FiveNamajNieat.MaghribActivity" />
+        <activity android:name=".FiveNamajNieat.AsrNamajActivity" />
+        <activity android:name=".FiveNamajNieat.ZoharNamajActivity" />
+        <activity android:name=".FiveNamajNieat.FajrNamajActivity" />
+        <activity android:name=".AllSura.NasSuraActivity" />
+        <activity android:name=".AllSura.AlaPhalakaActivity" />
+        <activity android:name=".AllSura.AlIikhlasSuraActivity" />
+        <activity android:name=".AllSura.LahabSuraActivity" />
+        <activity android:name=".AllSura.NassarSuraActivity" />
+        <activity android:name=".AllSura.KafirunSuraActivity" />
+        <activity android:name=".AllSura.KauserSuraActivity" />
+        <activity android:name=".AllSura.MaunaSuraActivity" />
+        <activity android:name=".AllSura.SuraQuraishActivity" />
+        <activity android:name=".AllSura.PhilSuraActivity" />
+        <activity android:name=".AllSura.FatehaSuraActivity" />
+        <activity android:name=".NamajNieatActivity" />
+        <activity android:name=".SuraActivity" />
+        <activity android:name=".EidActivity" />
+        <activity android:name=".Oju" />
+        <activity android:name=".NmajPic" />
+        <activity android:name=".Kalima" />
+        <activity android:name=".FiveNamajTasbi" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

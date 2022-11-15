@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllSura.AlIikhlasSuraActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#2E94FA"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginHorizontal="1dp"
+            app:cardElevation="6dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bb"
+                    android:gravity="center"
+                    android:text="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/bb"
+                    android:gravity="center"
+                    android:text="বিসমিল্লাহির রাহমানির রাহিমِ"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/bb"
+                    android:gravity="center"
+                    android:text="পরম করুণাময় অসীম  দয়ালু আল্লাহর নামে।ِ"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="right"
+                    android:fontFamily="@font/bb"
+                    android:text=" قُلۡ هُوَ اللّٰهُ اَحَدٌ"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/bb"
+                    android:text=" কু’ল হুওয়া ল্লা-হু আহাদ ৷"
+                    android:textColor="#FF5722"
+                    android:textSize="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/bb"
+                    android:text=" বল, তিনিই আল্লাহ্ এক!"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textStyle="bold"
+                    android:text="اَللّٰهُ الصَّمَدَُْ"
+                    android:fontFamily="@font/bb"
+
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text=" আল্লা-হু স্‌সামাদ ৷"
+                    android:fontFamily="@font/bb"
+                    android:textColor="#FF5722"
+                    android:textSize="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/bb"
+                    android:text="* আল্লাহ অমুখাপেক্ষী । "
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="right"
+                    android:text="ِلَمۡ یَلِدۡۙ وَ لَمۡ یُوۡلَدُۡ"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp"
+                    android:fontFamily="@font/bb"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/bb"
+                    android:text=" লাম ইয়ালিদ ওয়া লাম ইয়ুলাদ ৷"
+                    android:textColor="#FF5722"
+
+                    android:textSize="17dp"
+                 />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/bb"
+                    android:text="  তিনি কাউকে জন্ম দেন নি এবং কেউ তাকে জন্ম দেয়নি।"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="right"
+                    android:fontFamily="@font/bb"
+                    android:text="وَ لَمۡ یَکُنۡ لَّهُ کُفُوًا اَحَدٌ"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/bb"
+                    android:text="ওয়া লাম ইয়াকু ল-লাহু কুফুওয়ান আহাদٌ"
+                    android:textColor="#FF5722"
+                    android:textSize="17dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:fontFamily="@font/bb"
+                    android:text="  তার সমতুল্য আর কেউ নেই!"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5861635784906387/1336766588">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

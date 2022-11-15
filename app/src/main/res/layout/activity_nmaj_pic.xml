@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffd"
+    tools:context=".NmajPic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="নামায যেভাবে আদায় করবেন"
+            android:textColor="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                tools:ignore="ExtraText">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="১। সেজদার জায়গায় দৃষ্টি রেখে তাক্বীরে তাহ্রীমা (আল্লাহু আকবার) বলবেন।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="২। তাকবীরের সময় কান বরাবর অথবা কাঁধ বরাবর উভয় হাত উঠাবেন।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="اللهُ أَكْبَر (আল্লাহু আকবার)"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="৩। তাকবীরের পর নামায শুরুর একটি দু’আ পড়বেন, পড়া সুন্নাত। দু’আটি নিুরূপ:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلا إلَهَ غَيْرُكَ"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="উচ্চারণ: সুবহানাকাল্লাহুম্মা ওয়া বিহামদিকা ওয়া তাবারাকাসমুকা ওয়া তা’আলা জাদ্দুকা ওয়া লা-ইলাহা গাইরুকা।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="অর্থ: “প্রশংসা এবং পবিত্রতা বর্ণনা করছি আপনার হে আল্লাহ! বরকতময় আপনার নাম। অসীম ক্ষমতাধর ও সুমহান আপনি। আপনি ভিন্ন আর কোন উপাস্য নেই”।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="৪। তারপর বলবেন:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="أَعُوْذُ باللهِِ مِنَ الشَّيْطَانِ الرَّجِيْم,ِ
+بِسْمِ اللّهِ الرَّحْمَنِ الرَّحِيمِ
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="উচ্চারণ: “আউযুবিল্লাহি মিনাশ শাইতানির রাজীম, বিসমিল্লাহির রহমানির রাহীম”।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="এর পর সূরা ফাতিহা পড়বেন:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِیْنَۙ(۱) الرَّحْمٰنِ الرَّحِیْمِۙ(۲) مٰلِكِ یَوْمِ الدِّیْنِؕ(۳) اِیَّاكَ نَعْبُدُ وَ اِیَّاكَ نَسْتَعِیْنُؕ(۴) اِهْدِنَا الصِّرَاطَ الْمُسْتَقِیْمَۙ(۵) صِرَاطَ الَّذِیْنَ اَنْعَمْتَ عَلَیْهِمْ ﴰ غَیْرِ الْمَغْضُوْبِ عَلَیْهِمْ وَ لَا الضَّآلِّیْنَ۠(۷)"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="৫। তার পর পবিত্র কুরআনের ১১৪ সুরা থেকে একটি সুরা বা নিম্নে ৩ টি আয়াত পড়ুন।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="لِاِیْلٰفِ قُرَیْشٍۙ(۱) اٖلٰفِهِمْ رِحْلَةَ الشِّتَآءِ وَ الصَّیْفِۚ(۲) فَلْیَعْبُدُوْا رَبَّ هٰذَا الْبَیْتِۙ(۳) الَّذِیْۤ اَطْعَمَهُمْ مِّنْ جُوْ عٍ ﳔ وَّ اٰمَنَهُمْ مِّنْ خَوْفٍ۠(۴)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="৬। তারপর আল্লাহু আকবার (আল্লাহ সবচেয়ে বড়) বলে দুই হাত হাঁটুর উপর রেখে পিঠ সোজা ও সমান করে রুকু করবেন এবং বলবেন"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="سُبْحَانَ رَبِّيِ الْعَظِيمِ"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="উচ্চারণ: “সুবহানা রাব্বিয়্যাল আযীম"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="এটি তিনবার অথবা তিনের অধিকবার বলা সুন্নত।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="তারপর বলবেন: "
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="سَمِعَ اللهُ لِمَنْ حَمِدَه"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="“সামিআল্লাহু লিমান হামিদাহ”
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="(আল্লাহ ঐ ব্যক্তিকে শুনলেন যে তাঁর প্রশংসা করল) বলে রুকু থেকে মাথা উঠিয়ে, ইমাম হোক অথবা একাকী হোক, সোজা দাঁড়িয়ে গিয়ে বলতে হবে:"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="”رَبَّنَا وَلَكَ الْحَمْدُ حَمْداً كَثِيراً طَيِّباً مُبَارَكاً فِيهِ مِلْءَ السَّماَوَاتِ وَمِلْءَ الأَرْضِ وَمِلْءَ ما بَيْنَهُمَا وَمِلْءَ مَا شِئْتَ مِنْ شَيْءٍ بَعْدُ“
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="উচ্চারণ: রব্বানা ওয়া লাকাল হামদু হামদান কাসীরান তাইয়্যেবান মুবারাকান ফীহ, মিল্ আস্সামাওয়াতি ওয়া মিলআলআরযি, ওয়ামিলআ মা বাইনাহুমা ওয়া মিলআ মা শী’তা মিন শাইয়িন বা’দু”।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="অর্থ: “ হে আমার প্রতিপালক! প্রশংসা আপনারই জন্য, প্রচুর প্রশংসা, যে প্রশংসা পবিত্র-বরকতময়, আকাশ ভরে, যমীন ভরে এবং এ উভয়ের মধ্যস্থল ভরে, এমনকি আপনি যা ইচ্ছে করেন তা ভরে পরিপূর্ণরূপে আপনার প্রশংসা”।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="আর যদি মুক্তাদী হয় তাহলে রুকু থেকে মাথা উঠিয়ে উপরোল্লেখিত দু’আ رَبَّنَا ولَكَ الْحَمْد …. (রাব্বানা ওয়ালাকাল হামদু…) শেষ পর্যন্ত পড়বেন।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="
+৮। তারপর اللهُ أَكْبَرُ (আল্লাহু আকবর) বলে বাহুকে তার পার্শ্বদেশ থেকে এবং ঊরুকে উভয় পায়ের রান থেকে আলাদা রেখে সেজদা করবেন। সেজদা পরিপূর্ণ হয় সাতটি অঙ্গের উপর, কপাল-নাক, দুই হাতের তালু, দুই হাঁটু এবং দুই পায়ের অঙ্গুলির তলদেশ। সেজদার অবস্থায় তিনবার অথবা তিন বারেরও বেশি এই দুআ পড়বেন।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="سُبْحَانَ رَبِّيَ الاَعْلَى
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+
+                    android:text="উচ্চারণঃ সুবহানা রাব্বিয়াল আ’লা (পবিত্রতা ঘোষণা করছি আমার মহান প্রতিপালকের) বলবেন এবং ইচ্ছা মত বেশী করে দু’আ করবেন।
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                   />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="৯। তারপর اللهُ أَكْبَرُ (আল্লাহু আকবার) বলে মাথা উঠিয়ে পা খাড়া
+                রেখে বাম পায়ের উপর বসে দুই হাত, রান ও হাঁটুর উপর রেখে বলবেন,
+                "
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="اللَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي، وَعَافِنِي وَارَزُقْنِي وَاهْدِنِي، وَاجْبُرْنِيْ
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="উচ্চারণ: “আল্লাহুম্মাগর্ফিলী ওর্য়াহামনী ওয়া আফিনী ওয়ারজুকনী ওয়াহ্দিনী ওয়াজবুরনী”।
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="অর্থ: “ হে আল্লাহ! আপনি আমাকে ক্ষমা করুন, দয়া করুন, নিরাপদে রাখুন, জীবিকা দান করুন, সরল পথ দেখান, শুদ্ধ করুন”।
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                   />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="১০। তারপর اللهُ أَكْبَر (আল্লাহু আকবার) বলে দ্বিতীয় সেজদা করবেন এবং প্রথম সেজদায় যা করেছেন তাই করবেন।
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                  />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="১১। তারপর اللهُ أَكْبَر (আল্লাহু আকবার) বলে দ্বিতীয় রাকাতের জন্য উঠে দাঁড়াবেন। (এই ভাবে প্রথম রাকাত পূর্ণ হবে।)
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="১২। তারপর দ্বিতীয় রাকাআতে সূরা ফাতিহা ও কুরআনের কিছু অংশ পড়ে রুকু করবেন এবং দুই সেজদা করবেন, অর্থাৎ পুরোপুরিভাবে প্রথম রাকাতের মতোই করবেন।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="১৩। তারপর দ্বিতীয় রাকাতের দুই সেজ্দা থেকে মাথা উঠানোর পর দুই সাজ্দার মাঝের ন্যায় বসে তাশাহ্হুদের এই দু’আ পড়বেন:
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="”اَلتَّحِيَاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، اَلسَّلامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، اَلسَّلامُ عَلَيْنَا وَعَلَى عِبَادِاللهِ الصَالِحِينَ، أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ الهُص وأَشهدُ أَنَّ مُحَمَّداً عبْدُهُ وَرَسُولُهُ“
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="উচ্চারণ:আত্তাহিয়্যাতু লিল্লাহি ওয়াস্সলাওয়াতু ওয়াত্তাইয়েবাতু, আস্সালামু আলাইকা আইয়ুহান্নাবিয়্যু ওয়া রহ্মাতুল্লাহি ওয়া বারাকাতুহ, আস্সালামু আলাইনা ওয়া আলা ইবাদিল্লাহিস্ সলেহীন, আশ্হাদু আল্লা ইলাহা ইল্লাল্লাহু ওয়া আশ্হাদু আন্না মুহাম্মাদান আবদুহু ওয়া রাসূলুহ"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="অর্থ : “সকল তাযীম ও সম্মান আল্লাহর জন্য, সকল সালাত আল্লাহর জন্য এবং সকল ভাল কথা ও কর্মও আল্লাহর জন্য। হে নবী! আপানার প্রতি শান্তি, আল্লাহর রহমত ও তাঁর বরকত বর্ষিত হোক। আমাদের উপরে এবং আল্লাহর নেক বান্দাদের উপরে শান্তি বর্ষিত হোক। আমি সাক্ষ্য দিচ্ছি যে, আল্লাহ ছাড়া কোন সত্য উপাস্য নেই এবং আরো সাক্ষ্য দিচ্ছি মুহাম্মাদ আল্লাহর বান্দা এবং তাঁর রাসূল।”
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="তবে নামায যদি দুই রাকাত বিশিষ্ট হয়। যেমন: ফজর, জুমআ, ঈদ তাহলে আত্তাহিয়্যাতু লিল্লাহি ….. পড়ার পর একই বৈঠকে এই দরূদ পড়বেন:
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="للَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ، وَ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيْدٌ مَجِيْدٌ“"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="উচ্চারণ: আল্লাহুম্মা সাল্লি আলা মুহাম্মাদিও ওয়ালা আলি মুহাম্মাদিন কামা সাল্লাইতা আলা ইব্রাহীমা ওয়ালা আলি ইব্রাহীমা ইন্নাকা হামীদুম মাজীদ, ওয়া বারিক আলা মুহাম্মাদিওঁ ওয়ালা আলি মুহাম্মাদিন কামা বারাক্তা আলা ইব্রাহীমা ওয়ালা আলি ইব্রাহীমা ইন্নাকা হামীদুম মাজীদ”।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="অর্থ: “ হে আল্লাহ! আপনি মুহাম্মদ ও তার বংশধরদের উপর রহমত বর্ষণ করুন, যেরূপভাবে আপনি ইব্রাহীম আলাইহিস সালাম ও তার বংশধরদের উপর রহমত বর্ষণ করেছিলেন। নিশ্চয় আপনি প্রশংসিত সম্মানিত।”
+আপনি মুহাম্মাদ ও তার বংশধরদের উপর বরকত বর্ষণ করুন, যেরূপভাবে আপনি ইব্রাহীম ও তার বংশধরদের উপর বরকত বর্ষণ করেছিলেন। নিশ্চয় আপনি প্রশংসিত, সম্মানিত”।"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="তারপর চারটি জিনিস থেকে এই বলে পানাহ চাইবেন:"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="”اَاللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا، وَلَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ. فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِي إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ))“
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="উচ্চারণ: “আল্লাহুম্মা ইন্নি জলামতু নাফছি জুল্মান কাসিরও অলা ইয়াগফিরুজ জুনুবা ইল্লা আন্তা ফাগফিরলি মাগফিরতাম মিন ইন্দিকা অরহামনি ইন্নাকা আন্তাল গফুরুর রহিম
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="
+অর্থ: “হে আল্লাহ! আমি অবশ্যই আপনার নিকট জাহান্নাম ও কবরের শাস্তি থেকে আশ্রয় চাচ্ছি। দজ্জালের ফিত্না এবং জীবন মৃত্যুর ফিত্না থেকে আশ্রয় চাচ্ছি।”"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                   />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginTop="2dp"
+                    android:text="উক্ত দু’আর পর ইচ্ছেমত দুনিয়া ও আখিরতের কল্যাণ কামনার্থে মাস্নুন দু’আ পড়বেন। ফরয নামায হোক অথবা নফল সকল ক্ষেত্রে একই পদ্ধতি প্রযোজ্য। তারপর ডান দিকে ও বাম দিকে (গর্দান ঘুরিয়ে)"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                  />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="”اَلسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ“
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="উচ্চারণ: “আসসালামু আলাইকুম ওয়া রহমাতুল্লাহ”
+"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="আর নামায যদি তিন রাকাত বিশিষ্ট হয়, যেমন মাগরিব। অথবা চার রাকাত বিশিষ্ট হয়, যেমন যোহর, আসর ও এশা, তাহলে দ্বিতীয় রাকাতের পর (সালাম না ফিরিয়ে) “আত্তাহিয়্যাতু লিল্লাহি…. পড়ার পর ‘আল্লাহু আকবার’ বলে সোজা দাঁড়িয়ে গিয়ে শুধু সূরা ফাতিহা পড়ে প্রথম দু’ রাকাতের মত রুকু ও সাজদা করতে হবে এবং চতুর্থ রাকাতেও একই পদ্ধতি অনুসরণ করতে হবে। তবে (শেষ তাশাহ্হুদে) বাম পা, ডান পায়ের নীচে রেখে ডান পা খাড়া রেখে মাটিতে নিতম্বের (পাছার) উপর বসে মাগরিবের তৃতীয় রাকাতের শেষে এবং যোহর, আসর ও এশার চতুর্থ রাকাতের শেষে, শেষ তাশাহ্হুদ (আত্তাহিয়্যাতু লিল্লাহ……, ও দরূদ পড়বেন। ইচ্ছে হলে অন্য দু’আও পড়বেন। এরপর ডান দিকে (গর্দান) ঘুরিয়ে (আস্সালামু আলাইকুম ওয়া রহমাতুল্লাহ” বলবেন। আর এভাবেই নামায সম্পন্ন হয়ে যাবে"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="370dp"
+                    android:src="@drawable/namajpic"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5861635784906387/1336766588">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

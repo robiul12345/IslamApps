@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RojaAndTarabiNamaj">
+
+        <LinearLayout
+            android:background="@drawable/ic_homebggggg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="বিসমিল্লাহির রাহমানির রাহিমِ"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:text="পরম করুণাময় অসীম  দয়ালু আল্লাহর নামে।ِ"
+                android:textColor="@android:color/white"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:layout_marginTop="10dp"
+                android:id="@+id/listId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+        </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5861635784906387/1336766588">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

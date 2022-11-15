@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllSura.LahabSuraActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginBottom="35dp"
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="#2E94FA"
+
+        android:layout_height="match_parent">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="6dp"
+            android:layout_marginVertical="4dp"
+            android:layout_marginHorizontal="4dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:padding="5dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="বিসমিল্লাহির রাহমানির রাহিমِ"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="পরম করুণাময় অসীম  দয়ালু আল্লাহর নামে।ِ"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text=" تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:text="তাব্বাত ইয়াদ~আবি লাহাবিও ওয়া তাব্ব।"
+                    android:textColor="#FF5722"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:text="ধ্বংস হোক আবু লাহাবের হস্তদ্বয় এবং ধ্বংস হোক সে নিজেও।"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="right"
+                    android:text=" مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:text=" মা~আগনা-'আনহু মা-লুহু ওয়ামা-কাসাব্।"
+                    android:textColor="#FF5722"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:text="তার ধন-সম্পদ আর সে যা অর্জন করেছে তা তার কোন কাজে আসল না। "
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="right"
+                    android:text="سَيَصْلَى نَارًا ذَاتَ لَهَبٍ "
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:text=" সাইয়াছলা-না-রান যা-তা লাহাবিও।"
+                    android:textColor="#FF5722"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:text=" অচিরেই সে শিখা বিশিষ্ট জাহান্নামের আগুনে প্রবেশ করবে,"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="right"
+                    android:text=" وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:text=" ওয়ামরাআতুহু; হাম্মা-লাতাল হাত্বাব।"
+                    android:textColor="#FF5722"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:text=" আর তার স্ত্রীও- যে কাঠবহনকারিণী (যে কাঁটার সাহায্যে নবী-কে কষ্ট দিত এবং একজনের কথা অন্যজনকে ব’লে পারস্পরিক বিবাদের আগুন জ্বালাত)।"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="right"
+                    android:text=" فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:text=" ফী জ্বীদিহা-হ্বাবলুম মিম মাসাদ্।"
+                    android:textColor="#FF5722"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:text=" আর (দুনিয়াতে তার বহনকৃত কাঠ-খড়ির পরিবর্তে জাহান্নামে) তার গলায় শক্ত পাকানো রশি বাঁধা থাকবে।"
+                    android:textColor="@android:color/black"
+                    android:textSize="17dp"
+                    android:layout_marginBottom="30dp"
+                    />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+</ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5861635784906387/1336766588">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
+

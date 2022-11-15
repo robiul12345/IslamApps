@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AiatulKurceActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginBottom="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3sp"
+            android:layout_marginVertical="3sp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="9dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="বিসমিল্লাহির রাহমানির রাহিমِ"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/bismilla_bangla_onobad"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="end"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:text="@string/sura_hasor"
+                    android:textStyle="bold" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="উচ্চারণ"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="start"
+                    android:textColor="@color/black"
+                    android:text="আল্লাহু লা ইলাহা ইল্লা হুয়াল হাইয়্যুল ক্বইয়্যুমু লা তা খুজুহু সিনাত্যু ওয়ালা নাউম। লাহু মা ফিছছামা ওয়াতি ওয়ামা ফিল আরদ্। মান যাল্লাযী ইয়াশ ফায়ু ইন দাহু ইল্লা বি ইজনিহি ইয়া লামু মা বাইনা আইদিহিম ওয়ামা খল ফাহুম ওয়ালা ইউ হিতুনা বিশাই ইম্ মিন ইল্ মিহি ইল্লা বিমা শাআ ওয়াসিয়া কুরসিইউ হুস ছামা ওয়াতি ওয়াল আরদ্ ওয়ালা ইয়া উদুহু হিফজুহুমা ওয়াহুয়াল আলিয়্যূল আজীম।"
+                    android:textSize="18sp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="অর্থ"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="start"
+                    android:textSize="17sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:text="আল্লাহ ছাড়া অন্য কোন উপাস্য নেই, তিনি জীবিত, সবকিছুর ধারক। তাঁকে তন্দ্রাও স্পর্শ করতে পারে না এবং নিদ্রাও নয়। আসমান ও যমীনে যা কিছু রয়েছে, সবই তাঁর। কে আছ এমন, যে সুপারিশ করবে তাঁর কাছে তাঁর অনুমতি ছাড়া? দৃষ্টির সামনে কিংবা পিছনে যা কিছু রয়েছে সে সবই তিনি জানেন। তাঁর জ্ঞানসীমা থেকে তারা কোন কিছুকেই পরিবেষ্টিত করতে পারে না, কিন্তু যতটুকু তিনি ইচ্ছা করেন। তাঁর সিংহাসন সমস্ত আসমান ও যমীনকে পরিবেষ্টিত করে আছে। আর সেগুলোকে ধারণ করা তাঁর পক্ষে কঠিন নয়। তিনিই সর্বোচ্চ এবং সর্বাপেক্ষা মহান। [২:২৫৫]"
+                    tools:ignore="RtlCompat" />
+
+
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5861635784906387/1336766588">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

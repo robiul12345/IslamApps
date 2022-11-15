@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E94FA"
+    android:orientation="vertical"
+    tools:context=".Oju">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="7dp"
+                android:layout_marginVertical="7dp"
+                app:cardElevation="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="7dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="অযুর দোয়া "
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:text="বাংলা উচ্চারণঃ ( আলহামদুলিল্লাহি আলা দ্বীন-ই ইসলাম, আলইসলামু-হাক্কু, ওল কুফরে বাতীলুন, ওল ইসলামু নূরুন, ওল কুফরে জুল্বমাত ) "
+                        android:textColor="@color/teal_200"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="right"
+                        android:text="
+بسم الله العلي العظيم والحمد لله علي دين الاسلام الاسلام حق والكفر باطل الاسلام نور والكفر ظلمة "
+                        android:textColor="@android:color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="7dp"
+
+                android:layout_marginVertical="7dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="অযুর নিয়ত  "
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="right"
+                        android:text="نويت ان اتوضالرفعالحدث واستباحة الصلواة وتقربااليالله تعالي."
+                        android:textColor="@color/teal_200"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:text="বাংলা উচ্চারণঃ নাওয়াইতু আন আতাওয়াজ্জায়া লিরাফয়িল হাদাসি ওয়া ইস্তিবাহাতা লিছছালাতি ওয়া তাকাররুবান ইলাল্লাহি তা’য়ালা।"
+                        android:textColor="@color/teal_200"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:text="অর্থ: আমি ওযুর নিয়ত করছি যে নাপাকি দূর করার জন্য বিশুদ্ধরূপে নামাজ আদায়ের উদ্দেশ্য এবং আল্লাহ তা’য়ালা।"
+                        android:textColor="@android:color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="7dp"
+
+                android:layout_marginVertical="7dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="ওযুর চার ফরয : "
+                        android:textColor="@android:color/black"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="১. সমস্ত মুখমন্ডল কপালের উপরিভাগের চুলের গোড়া হইতে থুতনী পর্যন্ত, এক কর্নের লতি থেকে অন্য কর্নের লতি পর্যন্ত ধৌত করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="২.উভয় হাত কনুইসহ ধৌত করা।"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="৩.চারভাগের একভাগ মাথা মাসেহ করা ( ঘন দাঁড়ি থাকিলে আঙ্গুলী দ্বারা খেলাল করা ফরয )।"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="৪.উভয় পা টাখনু গিরা সহকারে ধৌত করা ।"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="7dp"
+
+                android:layout_marginVertical="7dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="ওযুর ১৪টি সুন্নাত"
+                        android:textColor="@android:color/black"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="১.নিয়ত করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="২.বিসমিল্লাহ্‌ বলে ওযু শুরু করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="৩.হাতের আঙ্গুল খিলাল করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="৪.উভয় হাত কবজি পর্যন্ত ধৌত করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="৫.মিসওয়াক করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="৬.তিনবার কুলি করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="৭.তিনবার নাকে পানি দেয়া"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="৮.সম্পূর্ন মুখ মন্ডল তিনবার ধৌত করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="৯.উভয় হাতের কনুইসহ তিনবার ধৌত করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="১০.সমস্ত মাথা একবার মাসেহ করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="১১.টাখনু সহ উভয় পা তিবার ধৌত করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="১২.পায়ের আঙ্গুল খিলাল করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="১৩.এক অঙ্গ শুকানোর পূর্বে অন্য অঙ্গ ধৌত করা"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="start"
+                        android:text="১৪.ধারাবাহিকতা বজায় রেখে ওযুর কাজ গুলো সম্পূর্ন করা।"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginBottom="30dp"
+                        android:gravity="start"
+                        android:textColor="@android:color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5861635784906387/1336766588">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
